@@ -2,7 +2,7 @@ package sample.practice;
 
 import sample.Flyable;
 
-public class DragonFly implements Flyable {
+public class DragonFly extends Animal implements Flyable {
 
 	@Override
 	public void fly(int distance) {

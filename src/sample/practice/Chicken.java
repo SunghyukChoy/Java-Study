@@ -3,7 +3,7 @@ package sample.practice;
 import sample.Flyable;
 import sample.Runnable;
 
-public class Chicken implements Runnable, Flyable {
+public class Chicken extends Animal implements Runnable, Flyable {
 
 	@Override
 	public void fly(int distance) {

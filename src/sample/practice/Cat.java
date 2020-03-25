@@ -2,7 +2,7 @@ package sample.practice;
 
 import sample.Runnable;
 
-public class Cat implements Runnable {
+public class Cat extends Animal implements Runnable {
 
 	@Override
 	public void run(int runningHour) {
